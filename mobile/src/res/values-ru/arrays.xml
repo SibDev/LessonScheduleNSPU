@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="faculty_ids">
+        <item>4</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <item>10</item>
+        <item>1</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>2</item>
+        <item>11</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="faculty_names">
+        <item>ИД</item>
+        <item>ИЕСЭН</item>
+        <item>ИИ</item>
+        <item>ИИГСО</item>
+        <item>ИКИМП</item>
+        <item>ИМПиСР</item>
+        <item>ИРСО</item>
+        <item>ИФМИП</item>
+        <item>ИФМИЭО</item>
+        <item>ФИЯ</item>
+        <item>ФП</item>
+        <item>ФТП</item>
+        <item>ФФК</item>
+        <item>Аспирантура</item>
+        <item>Магистратура</item>
+    </string-array>
+    <string-array name="group_names">
+        <item>32 МО</item>
+        <item>37 ОВ</item>
+    </string-array>
+    <string-array name="group_ids">
+        <item>77</item>
+        <item>82</item>
+    </string-array>
+    <string-array name="teacher_letters">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Ё</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ъ</item>
+        <item>Ы</item>
+        <item>Ь</item>
+        <item>Э</item>
+        <item>Ю</item>
+        <item>Я</item>
+    </string-array>
+    <string-array name="teacher_names">
+        <item>Арапов А.И.</item>
+        <item>Дахин А.Н.</item>
+        <item>Добрынина Т.Н.</item>
+        <item>Егоров А.В.</item>
+        <item>Жуйкова Л.П.</item>
+        <item>Кондратьева Т.Н.</item>
+        <item>Кузьмичева Т.Н.</item>
+        <item>Русецкий Алексей Валерьевич</item>
+        <item>Чжан-Юшков Николай Константинович</item>
+        <item>Шульга И.И.</item>
+    </string-array>
+    <string-array name="teacher_ids">
+        <item>550</item>
+        <item>547</item>
+        <item>555</item>
+        <item>852</item>
+        <item>556</item>
+        <item>558</item>
+        <item>502</item>
+        <item>1012</item>
+        <item>504</item>
+        <item>548</item>
+    </string-array>
+</resources>

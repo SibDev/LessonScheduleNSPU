@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tk.al54.dev.nspu.lessonschedule"
+    android:versionCode="200"
+    android:versionName="0.8.4" > <!-- $PROJECT_DIR$/app/build.gradle -->
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:logo="@drawable/ic_menu"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".StartUp"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BouncyActivity"
+            android:logo="@drawable/ic_menu"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat" >
+            <!--android:configChanges="keyboard|keyboardHidden|orientation|screenSize"-->
+            <!--android:launchMode="singleInstance"-->
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BouncyBrowser"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="standard" /> <!-- |screenSize -->
+        <activity
+            android:name=".AboutActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".BouncyPreferences"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Black" >
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

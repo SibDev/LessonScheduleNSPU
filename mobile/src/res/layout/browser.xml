@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/browser"
+    android:background="@drawable/bg1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="0dp"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    android:visibility="visible" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="2dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_prevDay"
+            android:id="@+id/prevDayButton"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_back"
+            android:id="@+id/backButton"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/prevDayButton"
+            android:layout_toEndOf="@+id/prevDayButton"
+            android:layout_toLeftOf="@+id/nextDayButton"
+            android:layout_toStartOf="@+id/nextDayButton" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_nextDay"
+            android:id="@+id/nextDayButton"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <WebView
+        android:id="@+id/canvasFieldView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible" />
+</LinearLayout>

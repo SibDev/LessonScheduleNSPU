@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/preferences_group_section_title"
+        android:icon="@drawable/ic_action_group">
+        <ListPreference
+            android:key="list_faculty"
+            android:summary="@string/preferences_group_section_faculty_summary"
+            android:title="@string/preferences_group_section_faculty_title"
+            android:icon="@drawable/ic_action_group"
+            android:entries="@array/faculty_names"
+            android:entryValues="@array/faculty_ids"
+            android:defaultValue="9">
+        </ListPreference>
+        <ListPreference
+            android:key="list_groups"
+            android:summary="@string/preferences_group_section_group_summary"
+            android:title="@string/preferences_group_section_group_title"
+            android:icon="@drawable/ic_action_group"
+            android:enabled="false"
+            android:dialogTitle="@string/preferences_group_section_group_title"
+            android:defaultValue="82">
+        </ListPreference>
+	</PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_teacher_section_title"
+        android:icon="@drawable/ic_action_teacher" >
+        <ListPreference
+            android:key="list_teacher_letters"
+            android:entries="@array/teacher_letters"
+            android:entryValues="@array/teacher_letters"
+            android:summary="@string/preferences_teacher_section_teacher_summary"
+            android:title="@string/preferences_teacher_section_teacher_title"
+            android:icon="@drawable/ic_action_teacher">
+        </ListPreference>
+        <ListPreference
+            android:key="list_teacher"
+            android:summary="@string/preferences_teacher_section_teacher_summary"
+            android:title="@string/preferences_teacher_section_teacher_title"
+            android:icon="@drawable/ic_action_teacher"
+            android:enabled="false"
+            android:defaultValue="504" >
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

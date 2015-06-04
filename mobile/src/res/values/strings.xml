@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_text">\n © 2014-2015 ФГБОУ ВПО «Новосибирский государственный педагогический университет»\n http://nspu.ru \n\nРазработка и поддержка – ИОДО НГПУ\n http://iode.nspu.ru \n\n</string>
+    <string name="action_group">Группа</string>
+    <string name="action_teacher">Преподаватель</string>
+    <string name="action_teacher_short">Препод-ль</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_about">Информация</string>
+    <string name="action_prevDay">&lt; Пред. день</string>
+    <string name="action_back">Вернуться назад</string>
+    <string name="action_nextDay">След. день &gt;</string>
+    <string name="app_name">Электронное расписание «НГПУ»</string>
+    <string name="preferences_label">Настройки</string>
+    <string name="preferences_group_section_title">Выбор факультета и группы</string>
+    <string name="preferences_group_section_faculty_summary">Выберите интересующий факультет</string>
+    <string name="preferences_group_section_faculty_title">Выбор факультета</string>
+    <string name="preferences_group_section_group_summary">Выберите интересующую группу</string>
+    <string name="preferences_group_section_group_title">Выбор группы</string>
+    <string name="preferences_teacher_section_title">Выбор преподавателя</string>
+    <string name="preferences_teacher_section_teacher_summary">Выберите интересующего преподавателя</string>
+    <string name="preferences_teacher_section_teacher_title">Выбор преподавателя</string>
+    <string name="network_is_available">The network is available!</string>
+    <string name="network_is_unreached">The network is unavailable!</string>
+    <string name="version">Версия приложения: </string>
+    <string name="build">Сборка</string>
+    <string name="connection_error">connection_error</string>
+    <string name="xml_error">xml_error</string>
+    <string name="splash_loading">Идёт загрузка…</string>
+</resources>

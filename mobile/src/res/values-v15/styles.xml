@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Black">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <!--<item name="android:background">#387091</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ActionBar" parent="@style/Theme.AppCompat">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:icon">@drawable/ic_menu</item>
+    </style>
+    <style name="Theme.Splash" parent="android:Theme.NoTitleBar.Fullscreen">
+        <!--<item name="android:background">#387091</item>-->
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
